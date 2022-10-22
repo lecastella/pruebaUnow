@@ -1,0 +1,62 @@
+<div class="img-fondo d-flex">
+    <div class="row w-100 m-auto">
+        <div class="card w-30 mx-auto px-4 pt-5 pb-4">
+            <img class="mx-auto w-30" src="assets/img/endalia-logo.png" alt="Card image cap">
+            <div class="card-body">
+                <p class="fw-bold fs-5 font-monospace text-secondary mb-0">Bienvenido/a</p>
+                <p class="card-text fs-6 text-secondary">Introduce tus credenciales para acceder</p>
+                <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                    <div class="mb-3 row col-12 ms-1">
+                        <div class="input-group px-0">
+                            <div class="col-4">
+                                <label for="usuario" class="card-text fs-6 text-secondary pt-2">Usuario</label>
+                            </div>
+                            <div class="col-8">
+                                <input type="text" class="form-control" id="usuario" formControlName="usuario" [ngClass]="{'is-invalid': isSubmitted && loginForm.get('usuario')!.errors}" />
+                                <div *ngIf="isSubmitted && loginForm.get('usuario')!.errors">
+                                    <div *ngIf="loginForm.get('usuario')!.errors?.['required']">
+                                        <small class="text-danger font-error">Por favor ingrese un usuario.</small>
+                                    </div>
+                                    <div *ngIf="loginForm.get('usuario')!.errors?.['email']">
+                                        <small class="text-danger font-error">Por favor ingrese un usuario válido.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="mb-3 row col-12 ms-1">
+                        <div class="input-group px-0">
+                            <div class="col-4">
+                                <label for="password" class="card-text fs-6 text-secondary pt-2">Contraseña</label>
+                            </div>
+                            <div class="col-8">
+                                <input type="password" class="form-control" id="password" formControlName="password" [ngClass]="{ 'is-invalid': isSubmitted && loginForm.get('password')!.errors }" />
+                                <div *ngIf="isSubmitted && loginForm.get('password')!.errors">
+                                    <div *ngIf="loginForm.get('password')!.errors?.['required']">
+                                        <small class="text-danger font-error">Por favor ingrese una contraseña.</small>
+                                    </div>
+                                    <div *ngIf="loginForm.get('password')!.value.length < 6 && loginForm.controls['password'].dirty">
+                                        <small class="text-danger font-error">El password debe tener al menos 6 caracteres.</small>
+                                    </div>
+                                    <div *ngIf="loginForm.get('password')!.value.length > 8 && loginForm.controls['password'].dirty">
+                                        <small class="text-danger font-error">El password debe tener máximo 8 caracteres.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row mx-auto mt-5">
+                        <div class="col-12 text-center px-0">
+                            <button type="button" class="btn btn-blue w-100" type="submit">Acceder</button>
+                        </div>
+                    </div>
+                </form>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+    </div>
+</div>

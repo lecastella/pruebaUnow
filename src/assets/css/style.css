@@ -1,0 +1,99 @@
+body {
+    overflow-y: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-fondo {
+    background-image: url('../img/oficce-bg.jpg');
+    width: 100%;
+    min-height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.btn-blue {
+    color: #fff;
+    background-color: #1252A1;
+    border-color: #1252A1;
+}
+
+.font-error {
+    font-size: 0.65em;
+}
+
+.modal-backdrop {
+    background-color: rgba(255, 255, 255, .20);
+    backdrop-filter: blur(10px)!important;
+}
+
+.modal-content {
+    border-radius: 22px;
+    border: none;
+    border-color: rgba(223, 225, 229, 0);
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.modal-header {
+    background-color: #1252A1;
+    color: white;
+    text-align: center!important;
+    border: none!important;
+    ;
+    border-radius: 22px 22px 0px 0px;
+    padding: 10px 10px 0px 0px;
+}
+
+.modal-body {
+    background-color: #1252A1;
+    padding: 0px;
+    color: white;
+    text-align: center!important;
+}
+
+.modal-footer {
+    border-radius: 22px;
+    z-index: 9;
+    background-color: white;
+    color: #707070;
+    text-align: center;
+    margin: -38px auto;
+    width: 100%;
+}
+
+.modal-footer button {
+    height: auto;
+}
+
+.modal-footer button.play {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 0%);
+}
+
+.modal-dialog {
+    margin-top: 15vh;
+}
+
+#swal2-html-container {
+    overflow: visible!important;
+}
+
+.bg-blue {
+    background-color: #1252A1;
+}
+
+.texto-pequeño {
+    font-size: 0.75rem;
+    color: #aaa;
+    font-style: italic;
+}
+
+.mb-menos5 {
+    margin-bottom: -5px !important;
+}

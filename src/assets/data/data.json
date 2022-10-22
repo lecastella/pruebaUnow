@@ -1,0 +1,161 @@
+[{
+        "apellidos": "Abad Jiménez",
+        "nombres": "Ignacio",
+        "puesto": "Responsable de Desarrollo de RRHH",
+        "telefono": "61744290",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/anup_gupta.jpg"
+    },
+    {
+        "apellidos": "Aguirre Rivera",
+        "nombres": "Miguel Ángel",
+        "puesto": "Dirección Comercial",
+        "telefono": "34871575",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michael_jones.jpg"
+    },
+    {
+        "apellidos": "Alcalá Ordoñez",
+        "nombres": "Ángela",
+        "puesto": "Administrativo/a",
+        "telefono": "28322925",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/amy_taylor.jpg"
+    },
+    {
+        "apellidos": "Castellano Duarte",
+        "nombres": "Luis Antonio",
+        "puesto": "Asistente de Dirección",
+        "telefono": "4145681056",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/james_kennedy.jpg"
+    },
+    {
+        "apellidos": "Antón Teruel",
+        "nombres": "Pedro",
+        "puesto": "Operario Sección 2 Turno Tarde",
+        "telefono": "28322025",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jonathan_bradley.jpg"
+    },
+    {
+        "apellidos": "Aguirre León",
+        "nombres": "Verónica",
+        "puesto": "Operario Sección 1",
+        "telefono": "6781696",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/caroline_kingsley.jpg"
+    },
+    {
+        "apellidos": "Pulido Gutierrez",
+        "nombres": "Dianosky Yoleida",
+        "puesto": "Tesorera",
+        "telefono": "61798222",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jennifer_wu.jpg"
+    },
+    {
+        "apellidos": "Duarte Labrador",
+        "nombres": "Yennifer Lissett",
+        "puesto": "CEO",
+        "telefono": "45721913",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/amy_taylor.jpg"
+    },
+    {
+        "apellidos": "Aparicio Herreo",
+        "nombres": "Vicente",
+        "puesto": "Coordinador de Ventas Zona Norte",
+        "telefono": "28322925",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/kenneth_sato.jpg"
+    },
+    {
+        "apellidos": "Hidalgo Pérez",
+        "nombres": "Mauricio",
+        "puesto": "Auditor Contable",
+        "telefono": "61744290",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/kenneth_sato.jpg"
+    },
+    {
+        "apellidos": "Solórzano Guillén",
+        "nombres": "Gabriel",
+        "puesto": "Jefe de Relaciones Públicas",
+        "telefono": "61744290",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jonathan_bradley.jpg"
+    },
+    {
+        "apellidos": "Molina Pérez",
+        "nombres": "Manuela",
+        "puesto": "Secretaria",
+        "telefono": "5681700",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/caroline_kingsley.jpg"
+    },
+    {
+        "apellidos": "Segovia González",
+        "nombres": "María",
+        "puesto": "Gerente de Finanzas",
+        "telefono": "61744500",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/amy_taylor.jpg"
+    },
+    {
+        "apellidos": "Jiménez Carrillo",
+        "nombres": "Ana María",
+        "puesto": "Vendedora",
+        "telefono": "61744290",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jennifer_wu.jpg"
+    },
+    {
+        "apellidos": "Sánchez",
+        "nombres": "Carlos Alberto",
+        "puesto": "Ingeniero Alimentos",
+        "telefono": "67899721",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/anup_gupta.jpg"
+    },
+    {
+        "apellidos": "Labrador",
+        "nombres": "Daniela",
+        "puesto": "CTO",
+        "telefono": "61744290",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/amy_taylor.jpg"
+    },
+    {
+        "apellidos": "Berti Avila",
+        "nombres": "Carmela",
+        "puesto": "Analista de RRHH",
+        "telefono": "27960470",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/caroline_kingsley.jpg"
+    },
+    {
+        "apellidos": "Rojas Avendaño",
+        "nombres": "Juan Manuel",
+        "puesto": "Comercial",
+        "telefono": "61744290",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/james_kennedy.jpg"
+    },
+    {
+        "apellidos": "Silva Armas",
+        "nombres": "Edgardo José",
+        "puesto": "Maquetador",
+        "telefono": "61744290",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/james_kennedy.jpg"
+    },
+    {
+        "apellidos": "López Camargo",
+        "nombres": "Adriana del Pilar",
+        "puesto": "Desarrollador/a",
+        "telefono": "61744290",
+        "mail": "prueba@endalia.com",
+        "foto": "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/amy_taylor.jpg"
+    }
+]

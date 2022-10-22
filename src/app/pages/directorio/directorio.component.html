@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg bg-blue">
+    <div class="container-fluid">
+        <p class="navbar-brand mb-auto text-white">Endalia HR</p>
+        <div class="d-flex">
+            <button class="btn" (click)="logout()"><i class="fa fa-sign-out-alt text-white"></i></button>
+        </div>
+    </div>
+</nav>
+
+<div class="row col m-3">
+    <h3 class="">Directorio de empleados</h3>
+    <div class="col-6 mb-3"><input type="text" class="w-100 form-control" placeholder="Buscar..." [(ngModel)]="apellidos" (input)="search()"></div>
+    <div class="col-6 mb-3"></div>
+    <div class="col-6" *ngFor="let empleado of directorio">
+        <div class="card mb-2">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-2">
+                        <img [src]="empleado.foto" alt="" width="100%" class="rounded-circle">
+                    </div>
+                    <div class="col-10">
+                        <h5 class="mb-1">{{empleado.apellidos | uppercase}}, {{empleado.nombres}}</h5>
+                        <p class="mb-menos5">{{empleado.puesto}}</p>
+                        <p class="mb-menos5 texto-pequeño "><small>{{empleado.telefono}}</small></p>
+                        <p class="mb-0 texto-pequeño "><small>{{empleado.mail}}</small></p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
